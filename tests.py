@@ -67,7 +67,7 @@ def main():
     n_splits = 5
     
     transform = transforms.Compose([
-        transforms.Resize((224, 224)),
+        transforms.Resize((256, 256)),
         transforms.ToTensor(),
     ])
     
